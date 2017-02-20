@@ -1,0 +1,13 @@
+{ 
+   "title": "wuguo",
+   "foo":{
+     "bar":["luo luo","my status"]
+   },
+   "list":[1,2,3,4,5,6],
+   "obj":[
+     {"name":"luoluo","sex":"man","age":24},
+     {"name":"adai","sex":"man","age":24},
+     {"name":"you","sex":"man","age":24}
+   ],
+   "point":[[1,"dai",3],[4,"hai",6],[7,"qing",9]]  
+}

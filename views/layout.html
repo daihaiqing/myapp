@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{title}}</title>
+</head>
+<body>
+	{% block content %}{% endblock %}
+	{% block header %}{% endblock %}
+	<h1>this is my dot</h1>
+	<section>{% block left %}{% endblock %}</section>
+	{% import 'forms.html' as forms %}
+    {{ forms.label('Username') }}
+</body>
+</html>
