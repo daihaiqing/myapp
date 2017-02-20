@@ -9,8 +9,11 @@ router.get('/', function(req, res, next) {
   res.render('index', user);
 });
 
+// router.get('/index1', function(req, res, next) {
+//   res.render('index1', user1);
+// });
 router.get('/index1', function(req, res, next) {
-  res.render('index1', user1);
+  res.render('index1', {});
 });
 
 

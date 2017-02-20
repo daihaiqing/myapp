@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>{{title}}</title>
+	<script type="text/javascript" src="../public/static/vue.min.js"></script>
+	<script type="text/javascript" src="../public/javascripts/layout.js"></script>
 </head>
 <body>
 	{% block content %}{% endblock %}
@@ -11,5 +13,7 @@
 	<section>{% block left %}{% endblock %}</section>
 	{% import 'forms.html' as forms %}
     {{ forms.label('Username') }}
+	{{ forms.field("daihaiqing", value='123', type='number') }}
+	{{ forms.field(name, value=value, type= ${number} }}
 </body>
 </html>
