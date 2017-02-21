@@ -1,0 +1,1 @@
+<div id="test"><$ forms.field({{ adai }}, value={{ value }}, type={{ number }}) $></div>

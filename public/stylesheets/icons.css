@@ -1,0 +1,103 @@
+[class^="u-icon-"],[class*=" u-icon-"]{
+	display:inline-block;
+	overflow:hidden;
+	text-align:left;
+	vertical-align:middle;
+	background-repeat:no-repeat;
+}
+.u-icon-arrow-right-message{
+	background-image:url("../sprite/arrow_right_message.png");
+	width:6px;
+	height:9px;
+	background-size:100%;
+}
+.u-icon-arrow-right{
+	background-image:url("../sprite/arrow_right.png");
+	width:14px;
+	height:14px;
+	background-size:100%;
+}
+.u-icon-dot{
+	background-image:url("../sprite/dot.png");
+	width:16px;
+	height:17px;
+	background-size:100%;
+}
+.u-icon-employment{
+	background-image:url("../sprite/employment.png");
+	width:153px;
+	height:104px;
+	background-size:100%;
+}
+.u-icon-explosion{
+	background-image:url("../sprite/explosion.png");
+	width:45px;
+	height:43px;
+	background-size:100%;
+}
+.u-icon-links-bg{
+	background-image:url("../sprite/links_bg.png");
+	width:43px;
+	height:65px;
+	background-size:100%;
+}
+.u-icon-links{
+	background-image:url("../sprite/links.png");
+	width:160px;
+	height:31px;
+	background-size:100%;
+}
+.u-icon-logo{
+	background-image:url("../sprite/logo.png");
+	width:427px;
+	height:112px;
+	background-size:100%;
+}
+.u-icon-message-bg{
+	background-image:url("../sprite/message_bg.png");
+	width:43px;
+	height:59px;
+	background-size:100%;
+}
+.u-icon-message{
+	background-image:url("../sprite/message.png");
+	width:160px;
+	height:31px;
+	background-size:100%;
+}
+.u-icon-more{
+	background-image:url("../sprite/more.png");
+	width:42px;
+	height:12px;
+	background-size:100%;
+}
+.u-icon-nav-blue{
+	background-image:url("../sprite/nav_blue.png");
+	width:124px;
+	height:28px;
+	background-size:100%;
+}
+.u-icon-recruit-bachelor{
+	background-image:url("../sprite/recruit_bachelor.png");
+	width:155px;
+	height:104px;
+	background-size:100%;
+}
+.u-icon-recruit-master{
+	background-image:url("../sprite/recruit_master.png");
+	width:154px;
+	height:104px;
+	background-size:100%;
+}
+.u-icon-recruit{
+	background-image:url("../sprite/recruit.png");
+	width:154px;
+	height:104px;
+	background-size:100%;
+}
+.u-icon-shaow{
+	background-image:url("../sprite/shaow.png");
+	width:190px;
+	height:114px;
+	background-size:100%;
+}

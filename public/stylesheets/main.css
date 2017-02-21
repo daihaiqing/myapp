@@ -1,0 +1,426 @@
+.top,.content{
+	width:780px;
+	margin:0 auto;
+}
+.top{
+	height:25px;
+	line-height:25px;
+}
+.top .english{
+	float:right;
+	color:#0c4a84;
+}
+.content{
+	min-height:610px;
+	font-size:12px;
+	position:relative;
+	border:solid 1px #c3c3c3;
+}
+.content a:hover{
+	color:#039;
+}
+.content .header{
+	height:112px;
+	overflow:hidden;
+	border-bottom:30px solid #1962b1;
+	background:#ebf3ff;
+}
+.content .header .nav-right{
+	font-family:"Times New Roman",Times,serif;
+	line-height:26px;
+	padding-right:26px;
+	padding-top:17px;
+	font-size:12px;
+	color:#fff;
+	float:right;
+}
+.content .header .nav-right li{
+	height:26px;
+}
+.content .header .nav-right span{
+	margin-right:8px;
+}
+.content .header .nav-right a{
+	color:#fff;
+}
+.content .header .logo{
+	float:left;
+}
+.content .header .nav-left{
+	height:100%;
+	line-height:18px;
+	margin-left:430px;
+	padding-top:29px;
+	background:linear-gradient(to right,#ebf3ff,#1672d4);
+}
+.content .header .nav-left li li{
+	display:inline-block;
+	padding-left:18px;
+	cursor:pointer;
+}
+.content .header .nav-left li li a{
+	display:inline-block;
+	min-width:50px;
+	text-align:center;
+}
+.content .header .nav-left li li:before,.content .header .nav-left li li:after{
+	content:"|";
+}
+.content .body{
+	position:relative;
+	padding:28px 10px 40px 10px;
+	min-height:300px;
+}
+.content .body .explosion{
+	position:absolute;
+	left:36px;
+	top:-30px;
+}
+.content .body .nav-left{
+	font-size:14px;
+	float:left;
+	width:190px;
+	font-family:Tahoma,Geneva,sans-serif;
+}
+.content .body .nav-left h2{
+	color:#0a54b4;
+	margin:0 0 20px 26px;
+}
+.content .body .nav-left h2 span{
+	display:inline-block;
+	margin:8px 0 0 36px;
+}
+.content .body .nav-left >.message{
+	position:relative;
+	height:148px;
+	margin-bottom:20px;
+}
+.content .body .nav-left >.message .u-icon-arrow-right-message{
+	float:left;
+	margin-top:2px;
+}
+.content .body .nav-left >.message .message-item{
+	line-height:16px;
+	font-size:12px;
+}
+.content .body .nav-left >.message .message-item >ul{
+	margin-left:14px;
+}
+.content .body .nav-left >.message .message-item >ul li{
+	width:145px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.content .body .nav-left >.message .time:before{
+	content:"[发布时间：";
+}
+.content .body .nav-left >.message .time:after{
+	content:"]";
+}
+.content .body .nav-left >.message .message-more{
+	margin-left:118px;
+}
+.content .body .nav-left >.links{
+	position:relative;
+	height:148px;
+}
+.content .body .nav-left >.links .link{
+	margin-left:34px;
+	line-height:24px;
+}
+.content .body .nav-left >.links .link span{
+	margin-right:14px;
+}
+.content .body .nav-left >.links .link a{
+	color:#1b70ba;
+}
+.content .body .nav-left .u-icon-message-bg,.content .body .nav-left .u-icon-links-bg{
+	position:absolute;
+	bottom:0;
+	right:0;
+	z-index:-1;
+}
+.content .body .nav-right{
+	float:right;
+	margin-top:15px;
+}
+.content .body .nav-right li{
+	line-height:28px;
+	color:#fff;
+	font-size:14px;
+	margin-bottom:1px;
+}
+.content .body .nav-right li a{
+	color:#fff;
+	text-align:center;
+}
+.content .body .middle{
+	margin-left:206px;
+	margin-top:36px;
+	width:406px;
+}
+.content .body .middle p{
+	text-indent:2em;
+	font-size:12px;
+	line-height:19px;
+	color:#306787;
+}
+.content .body .middle .more{
+	vertical-align:bottom;
+	margin-top:22px;
+}
+.content .body .middle .more a{
+	float:right;
+}
+.content .body .middle .more span{
+	float:right;
+	height:11px;
+	width:78%;
+	border-bottom:1px dashed #979797;
+}
+.content .body .chart{
+	font-family:"Times New Roman",Times,serif;
+}
+.content .body .chart-level{
+	text-align:center;
+	font-size:14px;
+	line-height:16px;
+}
+.content .body .chart-level .chart-root{
+	color:#7d7600;
+	border:1px solid #0e5cb2;
+	background:#fff;
+	display:inline-block;
+	margin-bottom:80px;
+	padding:1px;
+}
+.content .body .chart-level .chart-leaf{
+	margin-right:14px;
+	background:#fff;
+	display:inline-block;
+	color:#0e5cb2;
+	border:1px solid #0e5cb2;
+	max-width:17px;
+	vertical-align:top;
+}
+.content .body .chart-level .chart-line{
+	position:absolute;
+	background:#0e5cb2;
+	z-index:-1;
+}
+.content .body .chart-vertical{
+	text-align:right;
+}
+.content .body .chart-vertical .root-con{
+	text-align:center;
+}
+.content .body .chart-vertical .root-con .chart-root{
+	color:#a8ffff;
+	background:#00a9b8;
+}
+.content .body .chart-vertical >ul{
+	width:50%;
+}
+.content .body .chart-vertical >ul >li:nth-child(even){
+	padding-right:63px;
+}
+.content .body .chart-vertical >ul >li a{
+	color:#dcffff;
+	background:#005bbc;
+}
+.content .body .chart-vertical >ul >li:nth-child(odd) a{
+	margin-left:63px;
+	position:absolute;
+	left:50%;
+}
+.content .body .chart-left{
+	width:50%;
+	text-align:right;
+	display:inline-block;
+	margin-top:32px;
+	vertical-align:top;
+}
+.content .body .chart-left .root-con{
+	padding-right:63px;
+}
+.content .body .chart-left >ul>li{
+	padding-right:87px;
+}
+.content .body .chart-left .chart-root{
+	color:#fffcd1;
+	background:#be7500;
+}
+.content .body .chart-left .chart-leaf{
+	color:#dcffff;
+	background:#005bbc;
+}
+.content .body .chart-right{
+	margin-top:32px;
+	vertical-align:top;
+	display:inline-block;
+}
+.content .body .chart-right .root-con{
+	margin-left:63px;
+}
+.content .body .chart-right >ul>li{
+	margin-left:87px;
+}
+.content .body .chart-right .chart-root{
+	color:#fdffb6;
+	background:#97a300;
+}
+.content .body .chart-right .chart-leaf{
+	color:#dcffff;
+	background:#005bbc;
+}
+.content .body #recurit-and-employment{
+	margin:0 128px;
+}
+.content .body #recurit-and-employment >li{
+	margin-bottom:30px;
+}
+.content .body #recurit-and-employment >li .item-img{
+	margin-bottom:5px;
+}
+.content .body #recurit-and-employment >li .item-img .img-con{
+	width:164px;
+	border-radius:4px;
+	border:1px solid #d2d4c2;
+	text-align:center;
+}
+.content .body #recurit-and-employment >li .item-img .img-con a{
+	margin:4px;
+}
+.content .body #recurit-and-employment >li .item-text{
+	text-align:center;
+	width:164px;
+}
+.content .body #recurit-and-employment >li:nth-child(odd){
+	float:right;
+}
+.content .body #institutional_settings{
+	line-height:24px;
+}
+.content .body #institutional_settings .chart-line{
+	position:absolute;
+	background:#afafaf;
+	z-index:-1;
+}
+.content .body #institutional_settings .chart-root,.content .body #institutional_settings .chart-leaf{
+	border-radius:5px;
+	display:inline-block;
+	padding:0 14px;
+}
+.content .body #institutional_settings .chart-root{
+	margin-bottom:35px;
+}
+.content .body #institutional_settings .chart-leaf{
+	margin-bottom:14px;
+}
+.content .body #message-list h2{
+	text-align:center;
+	margin-bottom:15px;
+	font-weight:bolder;
+}
+.content .body #message-list table{
+	table-layout:fixed;
+	margin:0 auto;
+}
+.content .body #message-list table tr,.content .body #message-list table th,.content .body #message-list table .time{
+	border:solid 1px #00bfff;
+}
+.content .body #message-list table tr{
+	height:18px;
+	line-height:18px;
+}
+.content .body #message-list table th,.content .body #message-list table .table-end{
+	text-align:center;
+	background:#f5f5f5;
+}
+.content .body #message-list table .title{
+	width:366px;
+	padding:0 2px;
+}
+.content .body #message-list table .title a{
+	display:inline-block;
+	width:366px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	vertical-align:middle;
+}
+.content .body #message-list table .time{
+	text-align:center;
+	width:134px;
+}
+.content .body #message h2{
+	color:#ff4f00;
+	font-size:14px;
+	text-align:center;
+	margin:15px 0 10px 0;
+	font-weight:bolder;
+}
+.content .body #message .nav{
+	position:absolute;
+	top:10px;
+}
+.content .body #message .about{
+	text-align:center;
+	margin-bottom:40px;
+}
+.content .body #message .about li{
+	display:inline-block;
+}
+.content .body #message .about .time{
+	min-width:190px;
+}
+.content .body #message p{
+	text-indent:2em;
+	width:610px;
+	margin:0 auto;
+	line-height:24px;
+}
+.content .body .sub_institutional_settings{
+	font-size:22px;
+	line-height:44px;
+	font-weight:bolder;
+}
+.content .body .sub_institutional_settings .chart-leaf,.content .body .sub_institutional_settings .chart-root{
+	border-color:#ececec;
+	color:#001248;
+	border-radius:4px;
+}
+.content .body .sub_institutional_settings .chart-root{
+	padding:0 10px;
+	margin-bottom:146px;
+}
+.content .body .sub_institutional_settings .chart-leaf{
+	max-width:none;
+	min-width:234px;
+}
+.content .body .sub_institutional_settings .chart-leaf:nth-child(even){
+	margin-left:50px;
+}
+.content .body .sub_institutional_settings .chart-leaf:nth-child(odd){
+	margin-right:50px;
+}
+.content .body .sub_institutional_settings .chart-line{
+	background:#999;
+}
+.content .footer{
+	height:104px;
+	width:780px;
+	background-color:#2265b4;
+	position:relative;
+	font-size:12px;
+	line-height:21px;
+	color:#f7f8b4;
+	font-family:"Times New Roman",Times,serif;
+}
+.content .footer-con{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}

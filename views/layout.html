@@ -2,19 +2,19 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>{{title}}</title>
+	<title><$ title $></title>
 	<script type="text/javascript" src="static/vue.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 </head>
 <body>
-	{% block content %}{% endblock %}
-	{% block header %}{% endblock %}
+	<< block content >><< endblock >>
+	<< block header >><< endblock >>
 	<h1>this is my dot</h1>
-	<section>{% block left %}{% endblock %}</section>
-	{% import 'forms.html' as forms %}
-    {{ forms.label('Username') }}
-	{{ forms.field("daihaiqing", value='123', type='number') }}
-	<div id="test">{{ dai }} {{ number }}</div><!--vue标识符于nunjucks标识符冲突-->
+	<section><< block left >><< endblock >></section>
+	<< import 'forms.html' as forms >>
+    <$ forms.label('Username') $>
+	<$ forms.field("daihaiqing", value='123', type='number') $>	
+	<div id="test">{{ dai }}</div>
 </body>
 <script type="text/javascript" src="javascripts/layout.js"></script>
 </html>

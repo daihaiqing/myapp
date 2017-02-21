@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>控制与计算机工程学院</title>
+    <link rel="stylesheet" href="css/base.css" type="text/css">
+    <link rel="stylesheet" href="css/icons.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <meta charset="utf-8">
+</head>
+<body>
+<div class="top">
+    <span class="date">
+        <script>
+            var weeks, date;
+            weeks = ['', '一', '二', '三', '四', '五', '六', '七', '日'];
+            date = new Date();
+            document.write('今天是' + date.getFullYear() + '年' + (date.getMonth() + 1) +
+                    '月' + date.getDate() + '日' + '星期' + weeks[date.getDay()]);
+        </script>
+    </span>
+    <a class="english" href="http://english.ncepu.edu.cn/">ENGLISH</a>
+</div>
+<div class="content">
+    <div class="header">
+        <ul class="nav-right">
+            <li><span class="u-icon-dot"></span><a href="http://202.206.208.50/mailbox/">领导信箱</a></li>
+            <li><span class="u-icon-dot"></span><a href="javascript:;" onclick="if(this.setHomePage){this.style.behavior='url(#default#homepage)';this.setHomePage(location.href)}">设为首页</a></li>
+            <li><span class="u-icon-dot"></span><a href="javascript:;" onclick="if(window.external&&window.external.AddFavorite){window.external.AddFavorite(location.href,document.title);}">加入收藏</a></li>
+        </ul>
+        <a class="u-icon-logo logo" href="index.html"></a>
+        <ul class="nav-left">
+            <li>
+                <ul>
+                    <li><a href="http://www.ncepu.edu.cn/xxgk/xxjj/index.htm">学校概况</a></li>
+                    <li><a href="faculty_settings.html">院系设置</a></li>
+                    <li><a href="institutional_settings.html">机构设置</a></li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li><a href="http://202.206.208.58/rshch/webpages/default.aspx">师资队伍</a></li>
+                    <li><a href="http://icd.ncepu.edu.cn/">国际交流</a></li>
+                    <li><a href="recurit_and_employment.html">招生就业</a></li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li><a href="http://202.206.214.254/">文献资料</a></li>
+                    <li><a href="http://email.ncepubd.edu.cn/cgi-bin/index.cgi">邮件系统</a></li>
+                    <li><a href="http://english.ncepu.edu.cn/">English</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="body">
+        <div class="chart chart-level sub_institutional_settings">
+            <div class="root-con"><p class="chart-root">控制与计算机工程学院</p></div>
+            <div class="leaf-con">
+                <a href="http://202.206.208.57/automation/" class="chart-leaf">自动化系</a>
+                <a href="http://202.206.208.57/computer/" class="chart-leaf">计算机系</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-con">
+            <p>版权所有：华北电力大学</p>
+            <p>联系地址：河北省保定市永华北大街618号 邮政编码：071003</p>
+        </div>
+    </div>
+</div>
+<script src="js/chart.js"></script>
+<script>
+    var chat = new Chat(document.getElementsByClassName('chart')[0]).drawLevel();
+</script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+1.0中的Vue.config.delimiters在2.0中废弃了，怎么在2.0中自定义定界符

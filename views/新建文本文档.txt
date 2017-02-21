@@ -41,10 +41,15 @@
 
 
 
-
-<!-- {% import "forms.html" as forms %}
-
-{{ forms.label('Username') }}
-{{ forms.input('user') }}
-{{ forms.label('Password') }}
-{{ forms.input('pass', type='password') }} -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="static/vue.min.js"></script>
+</head>
+<body>
+	<div id="test">{{ dai }}</div>
+</body>
+<script type="text/javascript" src="javascripts/layout.js"></script>
+</html>

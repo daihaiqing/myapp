@@ -1,48 +1,46 @@
-{% extends 'layout.html' %}
-{% set myname="daihaiqing" %}
-<% from "json.html" import obj %>
+<< extends 'layout.html' >>
+<< set myname="daihaiqing" >>
+<< from "json.html" import headObj,rightObj,friendObj >>
 
-{% block content %}
+<< block head >>
 
-<h1>{{title}}</h1>
-<p>welcome to {{title}}</p>
-<h2>welcome {{foo.bar|join(',')}}</h2>
-<h3>{{foo.bar|replace("dai hai qing","zhang")|join(",")}}</h3>
+<< endblock >>
 
-{% endblock %}
 
-{% block header %}
-<p>this is a new header {{title}}</p>
-{% endblock %}
 
-{% block left %}
-{{super()}}
+<< block content >>
+
+<h1><$ title $></h1>
+<p>welcome to <$ title $></p>
+<h2>welcome <$ foo.bar|join(',') $></h2>
+<h3><$ foo.bar|replace("dai hai qing","zhang")|join(",") $></h3>
+
+<< endblock >>
+
+<< block header >>
+<p>this is a new header <$ title $></p>
+<< endblock >>
+
+<< block left >>
+<$ super() $>
 	<p>this is left</p>
 
 	<section class="right">
 		this is right
 	</section>
 	<ul>
-		{% for item in list %}
-		<li>{{item}}</li>
-		{% endfor %}
+		<< for item in list >>
+		<li><$ item $></li>
+		<< endfor >>
 	</ul>
 	<ol>
-		{% for ite in obj %}
-		<li>name:{{ite.name}} sex : {{ite.sex}} age : {{ite.age}}</li>	
-		{% endfor %}
+		<< for ite in obj >>
+		<li>name:<$ ite.name $> sex : <$ ite.sex $> age : <$ ite.age $></li>	
+		<< endfor >>
 	</ol>
-	{% for x,y,z in point %}
-		point:{{x}},{{y}},{{z}}
-	{% endfor %}
-	<p>{{myname}}</p>
+	<< for x,y,z in point >>
+		point:<$ x $>,<$ y $>,<$ z $>
+	<< endfor >>
+	<p><$ myname $></p>
 	<a href="index1">122</a>
-{% endblock %}
-
-
-
-
-
-
-
-
+<< endblock >>

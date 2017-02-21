@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>院系设置</title>
+    <link rel="stylesheet" href="css/base.css" type="text/css">
+    <link rel="stylesheet" href="css/icons.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <meta charset="utf-8">
+</head>
+<body>
+<div class="top">
+    <span class="date">
+        <script>
+            var weeks, date;
+            weeks = ['', '一', '二', '三', '四', '五', '六', '七', '日'];
+            date = new Date();
+            document.write('今天是' + date.getFullYear() + '年' + (date.getMonth() + 1) +
+                    '月' + date.getDate() + '日' + '星期' + weeks[date.getDay()]);
+        </script>
+    </span>
+    <a class="english" href="http://english.ncepu.edu.cn/">ENGLISH</a>
+</div>
+<div class="content">
+    <div class="header">
+        <ul class="nav-right">
+            <li><span class="u-icon-dot"></span><a href="http://202.206.208.50/mailbox/">领导信箱</a></li>
+            <li><span class="u-icon-dot"></span><a href="javascript:;" onclick="if(this.setHomePage){this.style.behavior='url(#default#homepage)';this.setHomePage(location.href)}">设为首页</a></li>
+            <li><span class="u-icon-dot"></span><a href="javascript:;" onclick="if(window.external&&window.external.AddFavorite){window.external.AddFavorite(location.href,document.title);}">加入收藏</a></li>
+        </ul>
+        <a class="u-icon-logo logo" href="index.html"></a>
+        <ul class="nav-left">
+            <li>
+                <ul>
+                    <li><a href="http://www.ncepu.edu.cn/xxgk/xxjj/index.htm">学校概况</a></li>
+                    <li><a href="faculty_settings.html">院系设置</a></li>
+                    <li><a href="institutional_settings.html">机构设置</a></li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li><a href="http://202.206.208.58/rshch/webpages/default.aspx">师资队伍</a></li>
+                    <li><a href="http://icd.ncepu.edu.cn/">国际交流</a></li>
+                    <li><a href="recurit_and_employment.html">招生就业</a></li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li><a href="http://202.206.214.254/">文献资料</a></li>
+                    <li><a href="http://email.ncepubd.edu.cn/cgi-bin/index.cgi">邮件系统</a></li>
+                    <li><a href="http://english.ncepu.edu.cn/">English</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="body">
+        <div class="chart chart-level">
+            <div class="root-con"><p class="chart-root">华北电力大学院系设置</p></div>
+
+            <a href="http://202.206.208.58/fksys/" class="chart-leaf">仿真与控制实验室</a>
+            <a href="faculty_settings_electric.html" class="chart-leaf">电气与电子工程学院</a>
+            <a href="faculty_settings_energe.html" class="chart-leaf">能源动力与机械工程学院</a>
+            <a href="faculty_settings_computer.html" class="chart-leaf">控制与计算机工程学院</a>
+            <a href="http://202.206.208.57/dianjing/" class="chart-leaf">经济与管理学院</a>
+            <a href="http://202.206.208.58/slx/" class="chart-leaf">数理学院</a>
+            <a href="http://59.67.225.76/" class="chart-leaf">人文与社会科学学院</a>
+            <a href="http://202.206.208.58/yyx/" class="chart-leaf">外国语学院</a>
+            <a href="http://202.206.208.58/huangongxi/yemian/shouye/index.php" class="chart-leaf">环境科学与工程学院</a>
+            <a href="http://iei.ncepu.edu.cn/" class="chart-leaf">国际教育学院</a>
+            <a href="http://59.67.225.13/" class="chart-leaf">思想政治理论课教学部</a>
+            <a href="http://www.hdky.edu.cn/" class="chart-leaf">科技学院</a>
+            <a href="http://202.206.208.57/txb/" class="chart-leaf">体育教学部</a>
+            <a href="http://www.hdcj.com/" class="chart-leaf">继续教育学院</a>
+            <a href="http://202.206.208.57/YiJiaoZhongXin/portal.php" class="chart-leaf">艺术教育中心</a>
+            <a href="http://59.67.225.74/" class="chart-leaf">工程训练中心</a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-con">
+            <p>版权所有：华北电力大学</p>
+            <p>联系地址：河北省保定市永华北大街618号 邮政编码：071003</p>
+        </div>
+    </div>
+</div>
+<script src="js/chart.js"></script>
+<script>
+    var chat = new Chat(document.getElementsByClassName('chart')[0]).drawLevel();
+</script>
+</body>
+</html>

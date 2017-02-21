@@ -3,11 +3,13 @@
 	type:"email",
 	value:"1083@qq.com"
 }*/
+// Vue.config.delimiters = ['${', '}'];
 new Vue({
 	el:"#test",
 	data:{
-		dai:"dai",
+		dai:"adai",
 		value:"email",
-		number:"number"
+		number:"email"
 	}
 })
+console.log(0)

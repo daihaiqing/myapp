@@ -14,7 +14,15 @@ var app = express();
 
 nunjucks.configure('views', {
     autoescape: true,
-    express: app
+    express: app,
+    tags:{
+      blockStart    : '<<',
+      blockEnd      : '>>',
+      variableStart : '<$',
+      variableEnd   : '$>',
+      commentStart  : '<#--',
+      commentEnd    : '#-->'
+    },
 });
 
 // view engine setup
